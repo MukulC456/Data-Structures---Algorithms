@@ -23,7 +23,7 @@ TC becomes O(8n^6). We can also ignore 8.
 So final Time complexity (TC) will be O(n^6)
 
 # There are 3 types of TC:- Big Oh (Worst case-upper bound), Theta(Average case), and 
-Omega(Best case-lower bound)
+Omega(Best case-lower bound) 
 
 
 
