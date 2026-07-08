@@ -1,0 +1,29 @@
+# Time complexity IS NOT the time taken by code to run
+# It is the rate if increase in time with respect to input size
+
+# Denoted by Big Oh Notation O(time taken)
+
+# Rules:
+1. Always calculate TC in terms of worst case.
+2. Avoid the constant values
+3. Avoid lower bound
+
+1. Worst case:
+If a backend developer wants to make a website, will he make it only to handle 100 users or 10000000 users?
+worst case:- 100000000 users. So if this is handles, 100 or 1000 users already handled.
+
+2. Avoid constants:
+Since we have large n values, so we can avoid constants.
+e.g. if TC is O(8n^6+3n^2+15), here we can ignore 15.
+So TC becomes O(8n^6+3n^2).  ---> (i)
+
+3. Avoid lower bound
+From above equation (i) we can also ignore 3n^2 becuase it has a very small value as compared to 8n^6.
+TC becomes O(8n^6). We can also ignore 8.
+So final Time complexity (TC) will be O(n^6)
+
+# There are 3 types of TC:- Big Oh (Worst case-upper bound), Theta(Average case), and 
+Omega(Best case-lower bound)
+
+
+
