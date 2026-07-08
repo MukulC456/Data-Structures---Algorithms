@@ -25,5 +25,31 @@ So final Time complexity (TC) will be O(n^6)
 # There are 3 types of TC:- Big Oh (Worst case-upper bound), Theta(Average case), and 
 Omega(Best case-lower bound) 
 
+# example 1
+for i in range(1,n+1):
+    for j in range(1,n+1):
+
+take i=1. we get j=1,2,3,...,n --> n
+take i=2. we get j=1,2,3,...,n --> n
+take i=3. we get j=1,2,3,...,n --> n
 
 
+take i=n. we get j=1,2,3,...,n --> n
+
+Adding all operations for inner loop j: n+n+n+...+n = n*n = n^2
+so TC = O(n^2)
+
+# example 2
+for i in range(1,n+1):
+    for j in range(1,i+1):
+
+take i=1. we get j=1--> 1
+take i=2. we get j=1,2--> 2
+take i=3. we get j=1,2,3--> 3
+
+
+take i=n. we get j=1,2,3,...,n --> n
+
+Adding all operations for inner loop j: 1+2+3+...+n = n*(n+1)/2 = (n^2+n)/2
+ignore n for n^2 and other constants. Just look at highest power.
+so TC = O(n^2)
