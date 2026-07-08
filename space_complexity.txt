@@ -1,0 +1,17 @@
+# Memory space the program takes is called space complexity
+
+# Big Ih Notation
+
+Space Complexity (SC) = Auxiliary space + Input space
+
+Auxiliary space means the extra spce used to solve the problem
+Input space meeans the space used to store the input
+
+# example 1
+x = 5, y = 10, z = 15   # 'x','y','z' occupy input space
+total = x + y + z       # 'total' occupy auxiliary space 
+print(total)
+
+# example 2
+if u take input as array/list from user. The wrost case is that there are 'n' inputs.
+so space complexity will be O(n),
