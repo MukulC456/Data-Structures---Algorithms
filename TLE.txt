@@ -1,0 +1,10 @@
+for 1 second we have around 10^8 operations.
+if this limit is corssed, time limit exceed error will occur.
+
+for example:
+for a coding problem we got TC as O(N^2) and constarint given is 1<N<10^5
+so if we put N = 10^5 in O(N^2) then operations  = (10^5)^2 = 10^10
+
+since 10^10 > 10^8 so time limit exceeded. so error.
+
+so we will try to use a better TC than N^2 like N or NlogN.
