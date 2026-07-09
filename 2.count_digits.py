@@ -1,3 +1,4 @@
+# Logic
 """
 Logic1:
 num = 5873, digits = 4
@@ -25,6 +26,7 @@ loop ends. we have count = 4
 Logic2:
 int(log 10 (num+1)) = number of digits in num
 """
+# code
 class Solution:
     def countdigits(self, n:int) -> int:
         num = n
@@ -33,6 +35,7 @@ class Solution:
             count += 1
             num //= 10
         return count
+# TC,SC
 """
 TC: whenever we have N//a floor division in a while loop TC is O(loga (N))
 for e.g. here we have n//10 so TC = O(log10 (N))
