@@ -38,4 +38,6 @@ TC: whenever we have N//a floor division in a while loop TC is O(loga (N))
 for e.g. here we have n//10 so TC = O(log10 (N))
 for n//5 TC will be O(log5 (N))
 for n //2 TC  = O(log2 (N))
+
+SC: 2 variables num and count which is a fixed number so SC = O(1)
 """
