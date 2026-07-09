@@ -1,0 +1,36 @@
+# For Array/List:
+
+O(1) means constant time
+
+Operation                       Worst case
+Copy                            O(n)
+Append                          O(1) 
+Pop last                        O(1)
+Pop intermediate                O(n)
+Insert                          O(n)
+Get item                        O(1)
+Set item                        O(1)
+Delete item                     O(n)
+Iteration                       O(n)
+Get slice                       O(k)
+delete slice                    O(n)
+Set slice                       O(k+n)
+Extend                          O(k)
+Sort                            O(nlogn)
+Multiply                        O(nk)
+Length                          O(1)
+
+# For Sets:
+
+Operation                       Worst case
+x in set                        O(n)
+
+# For dictionaries
+
+Operation                       Worst case
+k in dict                       O(n)
+Copy                            O(n)
+Get item                        O(n)
+Set item                        O(n)
+Delete item                     O(n)
+Iteration                       O(n)
