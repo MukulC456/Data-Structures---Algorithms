@@ -1,0 +1,8 @@
+Index of this folder:
+
+1.py= extraction of digits
+2.py= count_digits
+3.py= reverse_number
+4.py= armstrong number
+5a.py factors of number (better solution)
+5b.py factors of number (optimized solution)
